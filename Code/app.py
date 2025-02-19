@@ -5,7 +5,7 @@ import random
 
 app = Flask(__name__)
 
-hist = histogram("data/alice_in_wonderland.txt")
+hist = histogram("Code/data/alice_in_wonderland.txt")
 
 @app.route("/")
 
