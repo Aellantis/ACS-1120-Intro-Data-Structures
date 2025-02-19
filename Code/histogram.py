@@ -14,6 +14,6 @@ def unique_words (histogram):
 def frequency (word, histogram):
     return histogram.count(word.lower().strip())
 
-text = histogram('data/alice_in_wonderland.txt')
-print(f"Unique words: {unique_words(text)}")
-print(f"Frequency: {frequency("wonderland", text)}")
+# text = histogram('data/alice_in_wonderland.txt')
+# print(f"Unique words: {unique_words(text)}")
+# print(f"Frequency: {frequency("wonderland", text)}")
