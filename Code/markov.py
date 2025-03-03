@@ -22,7 +22,7 @@ class MarkovChain:
     def sample(self, word):
         return self.states[word].sample() if word in self.states else None
     
-    def generate_sentence(self, length=10):
+    def generate_sentence(self, length=50):
         if not self.word_list:
             return ""
 
