@@ -83,10 +83,10 @@ class LinkedList:
         """Return an item from this linked list if it is present."""
         node = self.head
         while node is not None:
-          if matcher(node.data):
-            return node.data
+          if node.data == matcher:
+            return True
           node = node.next
-        return None
+        return False
     
     def delete(self, item):
         """Delete the given item from this linked list, or raise ValueError."""
