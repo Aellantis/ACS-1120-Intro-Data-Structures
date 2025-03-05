@@ -80,7 +80,7 @@ def home():
         <div class="container">
             <h1>Random Sentence Generator</h1>
             <p class="source">Green Eggs and Ham by Doctor Suess</p>    
-            <p class="sentence">{{ sentences }}</p>
+            <p class="sentence">"{{ sentences.upper() }}"</p>
             <a href="/" class="refresh">Generate </a>
         </div>
     </body>
