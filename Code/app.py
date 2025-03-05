@@ -35,7 +35,7 @@ def home():
                 align-items: center;
                 height: 100vh;
                 margin: 0;
-                background-color: #f0f0f0;
+                background-color: lightblue;
             }
             .container {
                 background-color: white;
