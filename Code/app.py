@@ -61,7 +61,7 @@ def home():
                 padding: 10px;
             }
             .refresh {
-                background-color: lightblue;
+                background-color: lightgreen;
                 color: black;
                 border: none;
                 margin-top: 10px;
@@ -71,7 +71,7 @@ def home():
                 transition: background-color 0.3s ease;
             }
             .refresh:hover {
-                background-color: lightblue;
+                background-color: lightgreen;
                 color: white;
             }
         </style>
