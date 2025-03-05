@@ -7,7 +7,7 @@ from .markov import MarkovChain
 app = Flask(__name__)
 
 # hist = histogram("Code/data/alice_in_wonderland.txt")
-hist = histogram("data/sample.txt")
+hist = histogram("Code/data/sample.txt")
 word_list = list(hist.keys())
 markov_chain = MarkovChain(word_list)
 
